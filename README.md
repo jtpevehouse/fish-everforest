@@ -1,20 +1,23 @@
-# fish-gruvbox
-[gruvbox] theme for [fish shell]
+# fish-everforest
+
+[everforest] theme for [fish shell]
 
 # Install
+
 With [fisherman]
+
 ```
-fisher install jomik/fish-gruvbox
+fisher install jtpevehouse/fish-everforest
 ```
 
-This will expose the function called `theme_gruvbox`.
+This will expose the function called `theme_everforest`.
 It is a simple function that takes two arguments.
 The first is the mode, either `light` or `dark`.
 The second is the contrast, `soft`, `medium` or `hard`.
 The defaults are `light` and `medium`.
 
-To automatically apply this theme, call `theme_gruvbox` from your `config.fish`.
+To automatically apply this theme, call `theme_everforest` from your `config.fish`.
 
-[gruvbox]: https://github.com/morhetz/gruvbox
+[everforest]: https://github.com/sainnhe/everforest
 [fish shell]: http://fishshell.com/
 [fisherman]: https://github.com/fisherman/fisherman
